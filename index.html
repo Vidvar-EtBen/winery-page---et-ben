@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winefamly</title>
+    <link rel="stylesheet" href="opg9.css">
+</head>
+
+<body class="flex col">
+
+    <header>
+        <section class="toplist flex">
+            <p>PRISGARNTI • FRI FRAGT* • INGEN MINDSTEBESTILLING</p>
+        </section>
+        <section>
+            <ul class="headlist flex">
+                <li class="login"><a href=""><button>Log ind</button></a></li>
+                <li class="logo"><a href=""><img src="./Opgave - CSS - Flexbox 9 - img/logo.svg" alt="Logo"></a></li>
+                <li></li>
+            </ul>
+        </section>
+    </header>
+    <hr>
+    <nav>
+        <ul class="flex navul">
+            <li><a href="">Rødvin</a></li>
+            <li><a href="">Hvidvin</a></li>
+            <li><a href="">Bobler</a></li>
+            <li><a href="">Portvin</a></li>
+            <li><a href="">Vinparkker</a></li>
+            <li><a href="">Spiritus</a></li>
+            <li><a href="">Øvrige</a></li>
+            <li><a href="">Nyheder</a></li>
+            <li class="søg flex"><img src="./Opgave - CSS - Flexbox 9 - img/zoom.png" alt="" class="søgimg"><input
+                    type="text" placeholder="Søg..." class="søginput"></li>
+            <li><a href=""><img src="./Opgave - CSS - Flexbox 9 - img/basket.png" alt="" class="kurv"></a></li>
+        </ul>
+    </nav>
+    <main class="flex">
+        <section class="flex mainflex">
+            <section class="flex col ølbox">
+                <img src="./Opgave - CSS - Flexbox 9 - img/beer1.png" alt="" class="flex">
+                <section class="botbox flex col">
+                    <p>Skovlyst, Ellebryg Julebryg</p>
+                    <section class="flex uølknap">
+                        <p>17,00 Kr</p>
+                        <section class="ølknap flex">
+                            <input type="number" name="" id="" value="1" max="999">
+                            <button class="flex">Køb</button>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <aside class="flex col ølbox">
+                <img src="./Opgave - CSS - Flexbox 9 - img/beer2.png" alt="" class="flex">
+                <section class="botbox flex col">
+                    <p>Skovlyst, Ellebryg Julebryg</p>
+                    <section class="flex uølknap">
+                        <p>17,00 Kr</p>
+                        <section class="ølknap flex">
+                            <input type="number" name="" id="" value="1" max="999">
+                            <button class="flex">Køb</button>
+                        </section>
+                    </section>
+                </section>
+            </aside>
+            <aside class="flex col ølbox">
+                <img src="./Opgave - CSS - Flexbox 9 - img/beer3.png" alt="" class="flex">
+                <section class="botbox flex col">
+                    <p>Skovlyst, Ellebryg Julebryg</p>
+                    <section class="flex uølknap">
+                        <p>17,00 Kr</p>
+                        <section class="ølknap flex">
+                            <input type="number" name="" id="" value="1" max="999">
+                            <button class="flex">Køb</button>
+                        </section>
+                    </section>
+                </section>
+            </aside>
+            <aside class="flex col ølbox">
+                <img src="./Opgave - CSS - Flexbox 9 - img/beer4.png" alt="" class="flex">
+                <section class="botbox flex col">
+                    <p>Skovlyst, Ellebryg Julebryg</p>
+                    <section class="flex uølknap">
+                        <p>17,00 Kr</p>
+                        <section class="ølknap flex">
+                            <input type="number" name="" id="" value="1" max="999">
+                            <button class="flex">Køb</button>
+                        </section>
+                    </section>
+                </section>
+            </aside>
+            <aside class="flex col ølbox">
+                <img src="./Opgave - CSS - Flexbox 9 - img/beer5.png" alt="" class="flex">
+                <section class="botbox flex col">
+                    <p>Skovlyst, Ellebryg Julebryg</p>
+                    <section class="flex uølknap">
+                        <p>17,00 Kr</p>
+                        <section class="ølknap flex">
+                            <input type="number" name="" id="" value="1" max="999" maxlength="3" oninput="if(this.value > 999) this.value = 999; if(this.value < 0) this.value = 0; if(this.value.length > 3) this.value = this.value.slice(0,3);">
+                            <button class="flex">Køb</button>
+                        </section>
+                    </section>
+                </section>
+            </aside>
+        </section>
+
+    </main>
+    <footer>
+        <section class="flex infod">
+            <section>
+                <h2>Om os</h2>
+                <p>Om WineShopp</p>
+                <p>Bliv medlem</p>
+            </section>
+            <aside>
+                <h2>Betingelser</h2>
+                <p>Ofte stillede spørgsmål</p>
+                <p>Handelsbetingelser</p>
+                <p>Medlemsbetingelser</p>
+                <p>*Fragt og levering</p>
+            </aside>
+            <aside>
+                <h2>Hjælp</h2>
+                <p>Job hos WineShopp</p>
+                <p>Åbningstider</p>
+                <p>Tip os om en vin</p>
+                <p>Marketing</p>
+            </aside>
+            <hr>
+            <aside>
+                <h2>Sociale medier</h2>
+                <section class="flex smimg">
+                    <img src="./Opgave - CSS - Flexbox 9 - img/facebook.svg" alt="">
+                    <img src="./Opgave - CSS - Flexbox 9 - img/instagram.svg" alt="">
+                    <img src="./Opgave - CSS - Flexbox 9 - img/linkdin.svg" alt="">
+                    <img src="./Opgave - CSS - Flexbox 9 - img/youtube.svg" alt="">
+                </section>
+                <p>Aldersbegrænsinger</p>
+                <p>16 år for alkohol under 16,5%</p>
+                <p>18 år for alkohol over 16,5%</p>
+            </aside>
+            <aside></aside>
+            <aside></aside>
+        </section>
+        <section>
+
+        </section>
+    </footer>
+
+
+
+</body>
+
+</html>

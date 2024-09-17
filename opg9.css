@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* 
+    font-family: "PT Serif"
+    font-family: "PT Sans"
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: "PT Serif"
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.toplist ,.headlist ,.navul {
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(0, 0%, 93%);
+}
+
+.navul {
+    justify-content: space-between;
+    height: fit-content;
+    align-items: center;
+}
+
+.kurv {
+    height: 2em;
+}
+
+.login button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid hsl(0, 0%, 80%);
+    border-radius: 2em 2em;
+}
+
+.toplist {
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 1rem;
+}
+
+.toplist p {
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.søginput {
+    align-self: center;
+    border: none;
+    background-color: inherit;
+    flex: auto;
+    height: 100%;
+    padding-left: 5px;
+    width: 20%;
+}
+
+.søginput:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+.søg {
+    background-color: hsl(0, 0%, 80%);
+    height: 3em;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 2em 2em;
+}
+
+.søgimg {
+    height: 80%;
+    align-self: center;
+}
+
+main {
+    background-color: hsl(36, 19%, 95%);
+    box-shadow: 0 10px 15px hsl(0, 0%, 80%) inset;
+    height: fit-content;
+    justify-content: center;
+}
+
+.mainflex {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ølbox {
+    background-color: hsl(0, 0%, 91%);
+    margin: 3%;
+    align-items: center;
+    width: 25%;
+
+}
+
+.ølbox img {
+    padding: 5%;
+}
+
+.botbox {
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    border-radius: 0.5em 0.5em;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.botbox p {
+    align-self: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button ,input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"]{
+    appearance: textfield;
+    width: 1em;
+}
+
+.uølknap {
+    justify-content: space-around;
+}
+
+.ølknap {
+    background-color: hsl(166, 92%, 26%);
+    width: 50%;
+    border-radius: 1em 1em;
+    align-self: center;
+    border: 3px hsl(166, 92%, 26%) solid;
+    height: 2em;
+    
+}
+
+.ølknap input {
+    width: 2em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+
+.ølknap button {
+    background-color: inherit;
+    border: none;
+    align-self: center;
+    color: #fff;
+    flex: auto;
+    justify-content: center;
+}
+
+.infod {
+    justify-content: space-around;
+}
+
+.smimg {
+    height: 10%;
+    width: auto;
+}
